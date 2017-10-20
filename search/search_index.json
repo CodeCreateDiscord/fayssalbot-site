@@ -2,23 +2,58 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Welcome to MkDocs"
+            "text": "Musique\n\n\n\n\n!join\n pour rejoindre votre channel vocal\n\n\n!stop\n pour quitter le channel vocal\n\n\n!radio nom_de_la_radio\n pour jouer une radio. Liste des radios disponibles avec \n!radio list\n\n\n!play https://www.youtube.com/watch?v=XXXXXXXX ou nom de la musique\n pour jouer une vid\u00e9o YouTube.\n\n\n!lyrics nom de la musique\n pour afficher les paroles de la musique\n\n\n!musicinfo\n pour afficher des informations de base sur la musique\n\n\n\n\nApi Clash Of Clans\n\n\n\n\n!clan #RJOQR2Q8\n affiche les infomations sur un clan \n\n\n!savetag #JQUPPUCG\n pour sauvegarder votre tag Clash Of Clans dans la base de donn\u00e9e\n\n\n!joueur #JQUPPUCG\n affiche les informations sur un joueur\n\n\n!joueur @utilisateur#0000\n pour afficher les informations sur un utilisateur si il a sauvegard\u00e9 son tag\n\n\n!topfr\n pour afficher les 10 meilleurs joueurs fran\u00e7ais\n\n\n!topclansfr\n pour afficher les 10 meilleurs clans fran\u00e7ais\n\n\n!topbe\n pour afficher les 10 meilleurs joueurs belges\n\n\n!topclansbe\n pour afficher les 10 meilleurs clans belges\n\n\n\n\nApi Clash Royale\n\n\n\n\n!clancr #Tag\n pour afficher les informations sur un clan Clash Royale\n\n\n!joueurcr #Tag\n pour afficher les informations sur un clan Clash Royale\n\n\n!joueurcr @utilisateur#0000\n pour afficher les informations sur un joueur si il a sauvegard\u00e9 son tag\n\n\n!savecrtag #tag\n pour sauvegarder son tag Clash Royale dans la base de donn\u00e9e du Bot\n\n\n\n\nNSFW\n\n\n\n\n!boobs\n affiche une image al\u00e9atoire de poitrine f\u00e9minine \n\n\n!ass\n affiche une image al\u00e9atoire d'arri\u00e8re-train f\u00e9minin \n\n\n\n\nInfos du bot\n\n\n\n\n!annonce\n pour afficher le nom du channel dans lequel les messages de bienvenue sont.\n\n\n!autorole\n pour afficher le nom du r\u00f4le ajout\u00e9 automatiquement\n\n\n!testjoin\n pour simuler un membre rejoignant le serveur\n\n\n!testleave\n pour simuler un membre quittant le serveur\n\n\n\n\nConfiguration\n\n\n\n\n!setprefix pr\u00e9fixe\n pour changer le pr\u00e9fixe du bot. Les commandes seront donc disponibles via ce nouveau pr\u00e9fixe et non le pr\u00e9fixe \n!\n. Pour le moment, le pr\u00e9fixe ne peut faire qu'un seul caract\u00e8re. Les commandes \n!help\n et \n!setprefix\n sont quand accessibles via le pr\u00e9fixe \n!\n.\n\n\n!setrejoindre #channel\n pour cr\u00e9er un rejoindre (\nvoir ici\n)\n\n\n!setannonce on/off\n pour activer/d\u00e9sactiver le message de bienvenue et d'au revoir dans le channel d\u00e9sir\u00e9.\n\n\n!setautorole nom du r\u00f4le / off\n pour activer un r\u00f4le automatique que le r\u00f4le aura d\u00e8s qu'il rejoint le serveur.\n\n\n!setbotrole nom du r\u00f4le / off\n m\u00eame principe que l'autorole mais pour les bots\n\n\n!disable nomDeLaCommande\n pour d\u00e9sactiver une commande sur le channel, \n!enable nomDeLaCommande\n pour la r\u00e9activer.\n\n\n!disabled\n pour voir la liste des commandes d\u00e9sactiv\u00e9es\n\n\n!setjoinmessage\n pour modifier le message de bienvenue quand quelqu'un rejoint le serveur. \n{usermention}\n pour mentionner le nouveau membre, \n{name}\n pour afficher le pseudo du membre, et \n{membercount}\n pour afficher le nombre de membres dans le serveur.\n\n\n\n\nInformations suppl\u00e9mentaires\n\n\nInvitation\n\n\nPour inviter le bot sur votre serveur, veuillez \ncliquer ici\n, et accordez lui toutes les permissions coch\u00e9es, cela lui permettra de fonctionner correctement.\n\n\nDons\n\n\nAfin d'am\u00e9liorer le bot (temps de r\u00e9action, qualit\u00e9 du son, ...), les dons sont vivement appr\u00e9ci\u00e9s, toutes les infos sont disponibles via la commande \n!don\n\n\nProbl\u00e8me\n\n\nEn cas de probl\u00e8me vous pouvez me contacter avec \n!support\n ou rejoindre mon serveur discord en cliquant \nici", 
+            "title": "Home"
         }, 
         {
-            "location": "/#welcome-to-mkdocs", 
-            "text": "For full documentation visit  mkdocs.org .", 
-            "title": "Welcome to MkDocs"
+            "location": "/#musique", 
+            "text": "!join  pour rejoindre votre channel vocal  !stop  pour quitter le channel vocal  !radio nom_de_la_radio  pour jouer une radio. Liste des radios disponibles avec  !radio list  !play https://www.youtube.com/watch?v=XXXXXXXX ou nom de la musique  pour jouer une vid\u00e9o YouTube.  !lyrics nom de la musique  pour afficher les paroles de la musique  !musicinfo  pour afficher des informations de base sur la musique", 
+            "title": "Musique"
         }, 
         {
-            "location": "/#commands", 
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.", 
-            "title": "Commands"
+            "location": "/#api-clash-of-clans", 
+            "text": "!clan #RJOQR2Q8  affiche les infomations sur un clan   !savetag #JQUPPUCG  pour sauvegarder votre tag Clash Of Clans dans la base de donn\u00e9e  !joueur #JQUPPUCG  affiche les informations sur un joueur  !joueur @utilisateur#0000  pour afficher les informations sur un utilisateur si il a sauvegard\u00e9 son tag  !topfr  pour afficher les 10 meilleurs joueurs fran\u00e7ais  !topclansfr  pour afficher les 10 meilleurs clans fran\u00e7ais  !topbe  pour afficher les 10 meilleurs joueurs belges  !topclansbe  pour afficher les 10 meilleurs clans belges", 
+            "title": "Api Clash Of Clans"
         }, 
         {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
+            "location": "/#api-clash-royale", 
+            "text": "!clancr #Tag  pour afficher les informations sur un clan Clash Royale  !joueurcr #Tag  pour afficher les informations sur un clan Clash Royale  !joueurcr @utilisateur#0000  pour afficher les informations sur un joueur si il a sauvegard\u00e9 son tag  !savecrtag #tag  pour sauvegarder son tag Clash Royale dans la base de donn\u00e9e du Bot", 
+            "title": "Api Clash Royale"
+        }, 
+        {
+            "location": "/#nsfw", 
+            "text": "!boobs  affiche une image al\u00e9atoire de poitrine f\u00e9minine   !ass  affiche une image al\u00e9atoire d'arri\u00e8re-train f\u00e9minin", 
+            "title": "NSFW"
+        }, 
+        {
+            "location": "/#infos-du-bot", 
+            "text": "!annonce  pour afficher le nom du channel dans lequel les messages de bienvenue sont.  !autorole  pour afficher le nom du r\u00f4le ajout\u00e9 automatiquement  !testjoin  pour simuler un membre rejoignant le serveur  !testleave  pour simuler un membre quittant le serveur", 
+            "title": "Infos du bot"
+        }, 
+        {
+            "location": "/#configuration", 
+            "text": "!setprefix pr\u00e9fixe  pour changer le pr\u00e9fixe du bot. Les commandes seront donc disponibles via ce nouveau pr\u00e9fixe et non le pr\u00e9fixe  ! . Pour le moment, le pr\u00e9fixe ne peut faire qu'un seul caract\u00e8re. Les commandes  !help  et  !setprefix  sont quand accessibles via le pr\u00e9fixe  ! .  !setrejoindre #channel  pour cr\u00e9er un rejoindre ( voir ici )  !setannonce on/off  pour activer/d\u00e9sactiver le message de bienvenue et d'au revoir dans le channel d\u00e9sir\u00e9.  !setautorole nom du r\u00f4le / off  pour activer un r\u00f4le automatique que le r\u00f4le aura d\u00e8s qu'il rejoint le serveur.  !setbotrole nom du r\u00f4le / off  m\u00eame principe que l'autorole mais pour les bots  !disable nomDeLaCommande  pour d\u00e9sactiver une commande sur le channel,  !enable nomDeLaCommande  pour la r\u00e9activer.  !disabled  pour voir la liste des commandes d\u00e9sactiv\u00e9es  !setjoinmessage  pour modifier le message de bienvenue quand quelqu'un rejoint le serveur.  {usermention}  pour mentionner le nouveau membre,  {name}  pour afficher le pseudo du membre, et  {membercount}  pour afficher le nombre de membres dans le serveur.", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/#informations-supplementaires", 
+            "text": "", 
+            "title": "Informations suppl\u00e9mentaires"
+        }, 
+        {
+            "location": "/#invitation", 
+            "text": "Pour inviter le bot sur votre serveur, veuillez  cliquer ici , et accordez lui toutes les permissions coch\u00e9es, cela lui permettra de fonctionner correctement.", 
+            "title": "Invitation"
+        }, 
+        {
+            "location": "/#dons", 
+            "text": "Afin d'am\u00e9liorer le bot (temps de r\u00e9action, qualit\u00e9 du son, ...), les dons sont vivement appr\u00e9ci\u00e9s, toutes les infos sont disponibles via la commande  !don", 
+            "title": "Dons"
+        }, 
+        {
+            "location": "/#probleme", 
+            "text": "En cas de probl\u00e8me vous pouvez me contacter avec  !support  ou rejoindre mon serveur discord en cliquant  ici", 
+            "title": "Probl\u00e8me"
         }
     ]
 }
