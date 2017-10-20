@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="./img/favicon.ico">
+        <title>FayssalBot</title>
+        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/highlight.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href=".">FayssalBot</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#fayssalbot">Fayssalbot</a></li>
+            <li><a href="#liste-des-commandes">Liste des commandes</a></li>
+            <li><a href="#informations-supplementaires">Informations supplémentaires</a></li>
+            <li><a href="#probleme">Problème</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="fayssalbot">Fayssalbot</h1>
+<p>Ce bot discord a été créé par FayssalZ. Il intègre  de nombreuses fonctionnalités utiles comme la radio ou les données des jeux Clash Of Clans et Clash Royale.</p>
+<h2 id="liste-des-commandes">Liste des commandes</h2>
+<p>Pour ces commandes, le préfixe <code>!</code> est utilisé à titre d'exemple mais sachez que le préfixe est personnalisable via la commande <code>!setprefix</code> (voir plus bas).</p>
+<p>Vous pouvez utiliser la commande <code>!help</code> à tout moment et avec le préfixe <code>!</code> ou votre préfixe personnalisé.</p>
+<h3 id="moderation">Modération</h3>
+<ul>
+<li><code>!kick + mention</code> pour expulser un membre</li>
+<li><code>!ban + mention</code> pour bannir un membre</li>
+<li><code>!clear + nombre</code> pour effacer un certain nombre de message entre 2 et 100</li>
+<li><code>!addrole @utilisateur#0000 Nom du role</code> pour ajouter un rôle à un utilisateur</li>
+<li><code>!remrole @utilisateur#0000 Nom du role</code> pour enlever un rôle à un utilisateur</li>
+<li><code>!addcom NomDeLaCommande Texte de la commande</code> pour ajouter une commande personnalisée</li>
+<li><code>!delcom NomDeLaCommande</code> pour supprimer une commande personnalisée</li>
+<li><code>!listcom</code> pour avoir la liste des commandes</li>
+<li><code>!mute @utilisateur#0000</code> pour rendre quelqu'un muet, il ne peut plus parler dans le channel.</li>
+<li><code>!unmute @utilisateur#0000</code> pour re-permettre à l'utilisateur de parler</li>
+<li><code>!move @utilisateur#0000 nom du channel vocal</code> pour déplacer un membre dans un salon vocal</li>
+<li><code>!roleall nom du rôle</code> pour mettre un rôle à tout le monde.</li>
+<li><code>!setnick @utilisateur#0000 nouveau pseudo</code> pour changer le pseudo d'un membre, mettez <code>aucun</code> en nom de rôle pour rétablir le pseudo par defaut.</li>
+</ul>
+<h3 id="utiles">Utiles</h3>
+<ul>
+<li><code>!meteo + nom de ville</code> pour afficher la météo</li>
+<li><code>!serveur-info</code> pour obtenir des informations sur le serveur </li>
+<li><code>!avatar + mention</code> pour afficher l'avatar d'un membre du serveur</li>
+<li><code>!uptext + message</code> pour uploader un texte</li>
+<li><code>!short http://www.site_a_reduire.com/</code> pour réduire l'url d'un site</li>
+<li><code>!definition + mot</code> pour obtenir la definition de ce mot</li>
+<li><code>!google + ce que vous voulez rechercher</code> pour faire une recherche google (à venir)</li>
+<li><code>!youtube + ce que vous voulez rechercher</code> pour faire une recherche youtube</li>
+<li><code>!suggestion + message</code> pour suggérer une amélioration du bot au développeur</li>
+<li><code>!support + message</code> pour signaler un problème au développeur ou lui demander de l'aide.</li>
+<li><code>!news</code> pour avoir des informations sur la derniere mise à jour du bot</li>
+<li><code>!translate langue texte</code> pour traduire un texte dans la langue désirée, <a href="http://www.mathguide.de/info/tools/languagecode.html">liste des langues ici</a>.</li>
+<li><code>!rejoindre Nom du channel vocal</code> pour rejoindre un channel si le rejoindre a été créé par un admin.</li>
+<li><code>!botstats</code> pour avoir des informations sur le Bot </li>
+<li><code>!userinfo + mention/id/pseudo</code> pour avoit des informations sur un utilisateur</li>
+<li><code>!todolist</code> pour sauvegarder des informations quelconques, utilisation <code>!todolist add "Nom De L'élément" contenu de l'élément</code> pour ajouter un élément, <code>!todolist del "Nom de l'élément"</code> pour supprimer un élément, et simplement <code>!todolist</code> puis suivre les indications pour afficher un élément.</li>
+</ul>
+<h3 id="images">Images</h3>
+<ul>
+<li><code>!bonjour</code> pour afficher un gif qui dit bonjour (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!fail</code> pour afficher un gif de fail (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!love</code> pour afficher un gif d'amour (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!aurevoir</code> pour afficher un gif qui dit au revoir (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!pleure</code> pour afficher un gif d'une personne qui pleure (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!sourire</code> pour afficher un gif d'une personne qui sourit (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!animal</code> pour afficher un gif d'un animal</li>
+<li><code>!trump</code> pour afficher un gif de donald trump</li>
+<li><code>!architecture</code> pour afficher une image d'architecture</li>
+<li><code>!bravo</code> pour afficher un gif qui dit bravo (testez aussi en mentionnant quelqu'un)</li>
+<li><code>!sport</code> pour afficher une image de sport</li>
+<li><code>!food</code> pour afficher une image de nourriture</li>
+<li><code>!newyork</code> pour afficher une image de New York</li>
+<li><code>!cat</code> pour afficher une image de chat</li>
+<li><code>!dog</code> pour afficher une image de chien</li>
+</ul>
+<h3 id="fun">Fun</h3>
+<ul>
+<li><code>!flip texte</code> pour retourner un texte</li>
+<li><code>!blague</code> pour donner une blague aléatoire </li>
+<li><code>!addblague texxte de la blague</code> pour ajouter une blague à la base de donnée du Bot</li>
+</ul>
+<h3 id="musique">Musique</h3>
+<ul>
+<li><code>!join</code> pour rejoindre votre channel vocal</li>
+<li><code>!stop</code> pour quitter le channel vocal</li>
+<li><code>!radio nom_de_la_radio</code> pour jouer une radio. Liste des radios disponibles avec <code>!radio list</code></li>
+<li><code>!play https://www.youtube.com/watch?v=XXXXXXXX ou nom de la musique</code> pour jouer une vidéo YouTube.</li>
+<li><code>!lyrics nom de la musique</code> pour afficher les paroles de la musique</li>
+<li><code>!musicinfo</code> pour afficher des informations de base sur la musique</li>
+</ul>
+<h3 id="api-clash-of-clans">Api Clash Of Clans</h3>
+<ul>
+<li><code>!clan #RJOQR2Q8</code> affiche les infomations sur un clan </li>
+<li><code>!savetag #JQUPPUCG</code> pour sauvegarder votre tag Clash Of Clans dans la base de donnée</li>
+<li><code>!joueur #JQUPPUCG</code> affiche les informations sur un joueur</li>
+<li><code>!joueur @utilisateur#0000</code> pour afficher les informations sur un utilisateur si il a sauvegardé son tag</li>
+<li><code>!topfr</code> pour afficher les 10 meilleurs joueurs français</li>
+<li><code>!topclansfr</code> pour afficher les 10 meilleurs clans français</li>
+<li><code>!topbe</code> pour afficher les 10 meilleurs joueurs belges</li>
+<li><code>!topclansbe</code> pour afficher les 10 meilleurs clans belges</li>
+</ul>
+<h3 id="api-clash-royale">Api Clash Royale</h3>
+<ul>
+<li><code>!clancr #Tag</code> pour afficher les informations sur un clan Clash Royale</li>
+<li><code>!joueurcr #Tag</code> pour afficher les informations sur un clan Clash Royale</li>
+<li><code>!joueurcr @utilisateur#0000</code> pour afficher les informations sur un joueur si il a sauvegardé son tag</li>
+<li><code>!savecrtag #tag</code> pour sauvegarder son tag Clash Royale dans la base de donnée du Bot</li>
+</ul>
+<h3 id="nsfw">NSFW</h3>
+<ul>
+<li><code>!boobs</code> affiche une image aléatoire de poitrine féminine </li>
+<li><code>!ass</code> affiche une image aléatoire d'arrière-train féminin </li>
+</ul>
+<h3 id="infos-du-bot">Infos du bot</h3>
+<ul>
+<li><code>!annonce</code> pour afficher le nom du channel dans lequel les messages de bienvenue sont.</li>
+<li><code>!autorole</code> pour afficher le nom du rôle ajouté automatiquement</li>
+<li><code>!testjoin</code> pour simuler un membre rejoignant le serveur</li>
+<li><code>!testleave</code> pour simuler un membre quittant le serveur</li>
+</ul>
+<h3 id="configuration">Configuration</h3>
+<ul>
+<li><code>!setprefix préfixe</code> pour changer le préfixe du bot. Les commandes seront donc disponibles via ce nouveau préfixe et non le préfixe <code>!</code>. Pour le moment, le préfixe ne peut faire qu'un seul caractère. Les commandes <code>!help</code> et <code>!setprefix</code> sont quand accessibles via le préfixe <code>!</code>.</li>
+<li><code>!setrejoindre #channel</code> pour créer un rejoindre (<a href="https://github.com/fayssalz59/fayssalbot/blob/master/setrejoindre/README.md">voir ici</a>)</li>
+<li><code>!setannonce on/off</code> pour activer/désactiver le message de bienvenue et d'au revoir dans le channel désiré.</li>
+<li><code>!setautorole nom du rôle / off</code> pour activer un rôle automatique que le rôle aura dès qu'il rejoint le serveur.</li>
+<li><code>!setbotrole nom du rôle / off</code> même principe que l'autorole mais pour les bots</li>
+<li><code>!disable nomDeLaCommande</code> pour désactiver une commande sur le channel, <code>!enable nomDeLaCommande</code> pour la réactiver.</li>
+<li><code>!disabled</code> pour voir la liste des commandes désactivées</li>
+<li><code>!setjoinmessage</code> pour modifier le message de bienvenue quand quelqu'un rejoint le serveur. <code>{usermention}</code> pour mentionner le nouveau membre, <code>{name}</code> pour afficher le pseudo du membre, et <code>{membercount}</code> pour afficher le nombre de membres dans le serveur.</li>
+</ul>
+<h2 id="informations-supplementaires">Informations supplémentaires</h2>
+<h3 id="invitation">Invitation</h3>
+<p>Pour inviter le bot sur votre serveur, veuillez <a href="https://discordapp.com/oauth2/authorize?client_id=361915841387692033&amp;scope=bot&amp;permissions=1567882311">cliquer ici</a>, et accordez lui toutes les permissions cochées, cela lui permettra de fonctionner correctement.</p>
+<h3 id="dons">Dons</h3>
+<p>Afin d'améliorer le bot (temps de réaction, qualité du son, ...), les dons sont vivement appréciés, toutes les infos sont disponibles via la commande <code>!don</code></p>
+<h2 id="probleme">Problème</h2>
+<p>En cas de problème vous pouvez me contacter avec <code>!support</code> ou rejoindre mon serveur discord en cliquant <a href="https://discord.gg/9rXwJZS">ici</a></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '.';</script>
+        <script src="./js/base.js"></script>
+        <script src="./search/require.js"></script>
+        <script src="./search/search.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>&larr;</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>&rarr;</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 0.17.0
+Build Date UTC : 2017-10-20 18:35:48
+-->
